@@ -48,7 +48,7 @@ function Weather() {
           value={city}
           onChange={handleOnchange}
           onKeyDown={handleKeyDown}
-          placeholder="Enter The City Name"
+          placeholder="Enter Rahul City Name"
         />
         <button onClick={fetchData}>
           <FaSearchengin />
