@@ -10,7 +10,7 @@ body{
 
 .container{
     width: 400px;
-    height: 500px;
+    /* height: 500px; */
     padding-bottom: 10px;
     background-color: rgb(255 , 255 ,255 ,0.75);
     backdrop-filter: blur(16px) saturate(180%);
