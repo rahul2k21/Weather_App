@@ -48,7 +48,7 @@ function Weather() {
           value={city}
           onChange={handleOnchange}
           onKeyDown={handleKeyDown}
-          placeholder="Enter Any City Name"
+          placeholder="Enter The City Name"
         />
         <button onClick={fetchData}>
           <FaSearchengin />
@@ -94,10 +94,7 @@ function Weather() {
       ) : (
         <div className="content">
           <div className="weather-image">
-            <img
-              src=""
-              alt=""
-            />
+           
             <h3 className="desc">No data available</h3>
           </div>
           <div className="weather-temp">
